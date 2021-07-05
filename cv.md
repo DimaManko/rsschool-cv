@@ -24,3 +24,10 @@ function repeatStr (n, s) {
    return s.repeat(n)
 }
 ```
+## Education:
+ * Minsk State Energy College
+ * Belarusian State University of Informatics and Radioelectronics
+
+ 
+## English skills:
+* A1
