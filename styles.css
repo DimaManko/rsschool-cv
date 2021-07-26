@@ -1,0 +1,118 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: black;
+    text-align: center;
+    font: normal normal 22px/34px 'Times New Roman', Times, serif;
+    margin: 20px;
+    background-image: url(./img/fone.jpg);
+}
+
+h1, h2 {
+    font-variant: small-caps;
+}
+
+.navigation a {
+    color: #2b0b05ee;
+    font-variant: normal;
+    font-style: bold;
+    text-decoration: none;
+    padding-left: 30px;
+}
+
+nav {
+    border: thick double #2b0b05ee;
+    border-radius: 0px 0px 0px 0px;
+    margin: 0px 250px 0px 250px;
+    padding: 10px;
+    font-weight: bold;
+    background-image: url(./img/fone.jpg);
+    background-attachment: fixed;
+}
+
+footer {
+    border-top: 5px solid #2b0b05ee;
+    position: relative;
+    text-align: center;
+}
+
+img, figure {
+    text-align: center;
+}
+
+li {
+    list-style-type: square    ;
+    margin: 0;
+    padding: 0;
+}
+
+ol, ul {
+    padding: 0;
+    list-style-position: inside;
+}
+
+.contact {
+    margin: auto;
+    width: 100%;
+    border-bottom: 5px solid #2b0b05ee;  
+}
+
+
+.information {
+    margin: auto;
+    width: 100%;
+    border-bottom: 5px solid #2b0b05ee;  
+}
+
+.skill {
+    margin: auto;
+    width: 100%;
+    border-bottom: 5px solid #2b0b05ee;  
+}
+
+.codeblock {
+    padding-bottom: 5px;
+    margin: auto;
+    width: 100%;
+    border-bottom: 5px solid #2b0b05ee;  
+}
+
+.code {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+}
+
+.education-block {
+    margin: auto;
+    width: 100%;
+    border-bottom: 5px solid #2b0b05ee;
+}
+
+.RSS {
+    display: inline-block;
+    width: 450px;
+    float: left;
+
+}
+.github {
+    display: inline-block;
+    width: 450px;
+    float: right;
+
+}
+
+.RSS-footer {
+    padding: 10px;
+}
+
+.github-footer {
+    padding: 10px;
+}
+.jule {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
