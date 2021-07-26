@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dmitry Manko</title>
+</head>
+<body>
+    <!--Фото, заголовок, навигация-->
+    <header>
+        <div class="photo">
+            <img src="img/photo.jpg" alt="My photo" height="200" width="270">
+        </div>
+        <h1>
+            <strong>DIMA MANKO</strong>
+        </h1>
+        <nav class="navigation">
+            <a href="#contacts">Contacts</a>
+            <a href="#about_me">Information about me</a>
+            <a href="#skills">Skills</a>
+            <a href="#code_examples">Code examples</a>
+            <a href="#education">Education</a>
+            <a href="#english">English level</a>
+        </nav>
+    </header>
+    <main>
+        <!--Contact-->
+        <div class="contact">
+            <h2 id="contacts">Contacts</h2>
+            <ul class="contacts" itemscope itemtype="https://schema.org/Organization">
+                <li>
+                    <b>Country:</b>
+                    <span itemprop="location"><i>Belarus</i></span>
+                </li>
+                <li>
+                    <b>City:</b>
+                    <span itemprop="location"><i>Minsk</i></span>
+                </li>
+                <li>
+                    <b>Phone:</b>
+                    <span itemprop="telephone"><i>+375297689788</i></span>
+                </li>
+                <li>
+                    <b>Email:</b>
+                    <span itemprop="email"><i>Mankonat@gmail.com</i></span>
+                </li>
+            </ul>
+        </div>
+        <!--Информация-->
+        <div class="information">
+            <h2 id="about_me">Information about me</h2>
+            <p class="about">My goal is to become a full-fledged frontend developer with a good level of knowledge to perform various tasks. I am currently enrolled in Roling Scopes School and will do my best to finish it.</p>
+        </div>
+        <!--skills-->
+        <div class="skill">
+            <h2 id="skills">Skills</h2>
+            <ul class="skilltable">
+                <li>HTML (primitive actions)</li>
+                <li>git/github (primitive actions)</li>
+                <li>CSS (primitive actions)</li>
+            </ul>
+        </div>
+        <!--Code examples-->
+        <div class="codeblock">
+            <h2 id="code_examples">Code examples</h2>
+            <div class="code">
+            <pre class="precode">
+                <code>
+                    function repeatStr (n, s) {
+                        return s.repeat(n)
+                     }
+                </code>
+            </pre>
+        </div>
+        </div>
+        <!--Education-->
+        <div class="education-block">
+            <h2 id="education">Education</h2>
+            <ul class="education-list">
+                <li><b>Minsk State Energy College :</b>Automation and control of energy processes</li>
+                <li><b>Belarusian State University of Informatics and Radioelectronics :</b>Electronic security systems</li>
+            </ul>
+        </div>
+        <!--English-->
+        <div class="english-block">
+            <h2 id="english">English level:</h2>
+            <p>A1+</p>
+        </div>
+    </main>
+    <footer>
+        <figure class="RSS">
+            <div class="RSS-footer">
+                <a href="https://rs.school/js/">
+                <img class="logo-RSS" src="https://rs.school/images/rs_school_js.svg" alt="logo RS school" height="110" width="350">
+                </a>
+            </div>
+        </figure>
+        <figure class="GitHub">
+            <div class="Github-footer">
+                <a href="https://github.com/DimaManko">
+                    <img src="https://i.ibb.co/B3ZFnp5/github-logo.png" alt="github-logo" height="110" width="350">
+                </a>
+            </div>
+        </figure>
+        <div class="jule">
+        <p>2021</p>
+    </div>
+    </footer>
+</body>
+</html>
