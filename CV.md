@@ -3,12 +3,11 @@
 ---
 
 ### **Contacts for communication**
-[linkedin](https://www.linkedin.com/in/%D0%B4%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B9-%D0%BC%D0%B0%D0%BD%D1%8C%D0%BA%D0%BE-273280349/)  
-[github](https://github.com/DimaManko)  
-[mail](https://mankonat@gmail.com)  
-[tg](https://t.me/frtnqa)  
+[Linkedin](https://www.linkedin.com/in/%D0%B4%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B9-%D0%BC%D0%B0%D0%BD%D1%8C%D0%BA%D0%BE-273280349/)  
+[Github](https://github.com/DimaManko)  
+[Mail](https://mankonat@gmail.com)  
+[Telegram](https://t.me/frtnqa)  
 
----
 
 ### **About me**
 
@@ -39,3 +38,39 @@ My name is Dima, and I’m actively learning about frontend development to chang
 
 ---
 
+### Example code
+
+``` javascript
+function truncate(str, maxLength) {
+  // your code
+  if (str.length > maxLength) {
+    let subString = "";
+    for (let i = 0; i < maxLength; i++) {
+      subString += str[i]
+    }
+    return subString + '...';
+  } else {
+    return str;
+  }
+};
+```
+
+---
+
+### Experience
+
+No development experience in javascript. I am currently working as an engineer of electronic security systems.
+
+---
+
+### Education
+
+* Minsk State Energy College
+* Belarusian State University of Informatics and Radioelectronics
+* IT-Incubator (basic front-end developer)
+
+---
+
+### Level of English
+
+* A1 (active learning)
