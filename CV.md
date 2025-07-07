@@ -2,10 +2,40 @@
 
 ---
 
-## **Contacts for communication**
-[linkedin:](https://www.linkedin.com/in/%D0%B4%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B9-%D0%BC%D0%B0%D0%BD%D1%8C%D0%BA%D0%BE-273280349/)
-[github:](https://github.com/DimaManko)
-[mail:](https://mankonat@gmail.com)
-[tg:](https://t.me/frtnqa)
+### **Contacts for communication**
+[linkedin](https://www.linkedin.com/in/%D0%B4%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B9-%D0%BC%D0%B0%D0%BD%D1%8C%D0%BA%D0%BE-273280349/)  
+[github](https://github.com/DimaManko)  
+[mail](https://mankonat@gmail.com)  
+[tg](https://t.me/frtnqa)  
 
-## **About me**
+---
+
+### **About me**
+
+Hi!  
+My name is Dima, and I’m actively learning about frontend development to change my field of activity and immerse myself in the world of IT. Priorities: mastering HTML, CSS, JavaScript and frameworks; developing adaptive and cross-browser skills; learning to write clean, supported code. I am currently studying at rs-school.
+
+---
+
+### Skills
+
+* JavaScript (Native):
+    + Core concepts: variables, functions, loops, conditionals
+    + DOM manipulation, event handling, async operations (Promises, async/await)
+    + OOP, closures, array/object methods
+* HTML5:
+    + Semantic markup, forms, multimedia (audio, video)
+    + Accessibility
+    + Clean and optimized code structure
+* CSS3:
+    + Responsive design
+    + CSS preprocessors
+* Git & GitHub:
+    + Basic commands (commit, push, pull, merge)
+    + Branching & conflict resolution
+    + Repository management
+* Additional:
+    + Figma basics (slicing designs)
+
+---
+
