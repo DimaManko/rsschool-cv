@@ -3,8 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV Dmitry Manko</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/img/fav.ico">
 </head>
 <body>
+    <header class="header">
+        <div class="container">
+            <div class="header-wrapper">
+                <h1 class="main-title">Dmitry Manko</h1>
+                <nav class="nav">
+                    <ul class="menu">
+                        <li class="menu-item">
+                            <a class="menu-link" href="#conact">Contacts</a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="menu-link" href="#about-me">About me</a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="menu-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="menu-link" href="#example-code">Example code</a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="menu-link" href="#experience">Experience</a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="menu-link" href="#education">Education</a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="menu-link" href="#english">English</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="main-wrapper">
+                <div class="contacts-wrapper">
+                    <h3 class="title-contact">Contacts for communication</h3>
+                    <ul class="list-contact" id="contact">
+                        <li class="contact-item" id="linkedin"><a class="contact-link" href="https://www.linkedin.com/in/%D0%B4%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B9-%D0%BC%D0%B0%D0%BD%D1%8C%D0%BA%D0%BE-273280349/">LinkedIn</a></li>
+                        <li class="contact-item" id="github"><a class="contact-link" href="https://github.com/DimaManko">GitHub</a></li>
+                        <li class="contact-item" id="email"><a class="contact-link" href="mailto:mankonat@gmail.com">mankonat@gmail.com</a></li>
+                        <li class="contact-item" id="telegram">@frtnqa</li>
+                        <li class="contact-item" id="discord">frozen7723</li>
+                        <li class="contact-item" id="phone">+375-29-768-97-89</li>
+                    </ul>
+                </div>
+                <div class ="about-wrapper" id="about-me">
+                    <h3 class="title-about">About me</h3>
+                    <p class="text-about">Hi!
+My name is Dima, and I’m actively learning about frontend development to change my field of activity and immerse myself in the world of IT. Priorities: mastering HTML, CSS, JavaScript and frameworks; developing adaptive and cross-browser skills; learning to write clean, supported code. I am currently studying at rs-school.</p>
+                </div>
+                <div class="skill-wrapper" id="skills">
+
+                </div>
+                <div class="example-wrapper">
+                    <h3 class="title-code" id="example-code">Code</h3>
+                    <pre>
+                        <code>
+function getRandomNumber(min, max) {
+    return Math.floor(Math.random() * (max – min + 1)) + min;
+}
+                        </code>
+                    </pre>
+                </div>
+                <div class="experience-wrapper">
+                    <h3 class="title-expireance" id="experience">Experience</h3>
+                    <p class="text-expiriance">No development experience in javascript. I am currently working as an engineer of electronic security systems.</p>
+                </div>
+                <div class="edu-wrapper">
+                    <h3 class="title-education">Education</h3>
+                    <ul class="list-education" id="education">
+                        <li class="education-item">Minsk State Energy College</li>
+                        <li class="education-item">Belarusian State University of Informatics and Radioelectronics</li>
+                        <li class="education-item">IT-Incubator (basic front-end developer)</li>
+                    </ul>
+                </div>
+                <div class="eng-wrapper">
+                    <h3 class="title-english" id="english">English</h3>
+                    <span class="text-english">А1 - Beginner</span>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
 </body>
 </html>
