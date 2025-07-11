@@ -2,10 +2,158 @@
     padding: 0px;
 	margin: 0px;
 	box-sizing: border-box;
-    background-color: #DCDCDC;
 }
 
-html {
+html,
+body {
     scroll-behavior: smooth;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    min-width: 375px;
 }
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Rubik', sans-serif; /* У вас уже подключен этот шрифт */
+}
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+}
+
+.title {
+    color: #310062;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 43px;
+}
+
+li,
+.text{
+    color: #0c1d8d;
+    font-size: 16px;
+    font-weight: 400; 
+    line-height: 22px;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 10px;
+    
+}
+
+img {
+    max-width: 10%;
+}
+
+/* Styles for header*/
+
+.header {
+    background-color: #e8d7b5;
+    padding: 25px 0;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+
+.menu-link {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    padding-right: 50px;
+}
+
+/* Styles for main section */
+
+.main-title {
+    color: #363940;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 68px;
+}
+
+.main-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+.main-wrapper > div {
+    flex: 1 1 calc(50% - 20px);
+    min-width: 300px;
+    box-sizing: border-box;
+    padding-bottom: 30px;
+}
+
+.contacts-wrapper,
+.about-wrapper,
+.skill-wrapper,
+.example-wrapper,
+.experience-wrapper,
+.edu-wrapper{
+border-bottom: 5px solid #e8d7b5;
+}
+
+.main-info {
+    padding: 20px 0;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom:5px solid #e8d7b5;
+}
+
+/* Styles for footer*/
+
+.footer {
+    background-color: #e8d7b5;
+    padding: 10px 0;
+    margin-top: auto;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-rs {
+   
+}
+
+.logo-git {
+    
+}
+
+small {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500; 
+    line-height: 22px;
+}
+
 
