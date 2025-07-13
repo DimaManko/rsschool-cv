@@ -19,6 +19,7 @@ body {
 }
 a {
     text-decoration: none;
+    color: #0c1d8d;
 }
 
 a:hover {
@@ -141,6 +142,73 @@ border-bottom: 5px solid #e8d7b5;
     justify-content: space-evenly;
     align-items: center;
     border-bottom:5px solid #e8d7b5;
+}
+
+#linkedin {
+    list-style-image: url(./assets/img/icons8-link.png);
+}
+
+#github {
+    list-style-image: url(./assets/img/icons8-github-16.png);
+}
+
+#email {
+    list-style-image: url(./assets/img/icons8-post.png);
+}
+
+#telegram {
+    list-style-image: url(./assets/img/icons8-telega-16.png);
+}
+
+#discord {
+    list-style-image: url(./assets/img/icons8-discord-16.png);
+}
+
+#phone {
+    list-style-image: url(./assets/img/icons8-phone-16.png);
+}
+
+.contact-item {
+    margin-left: 22px;
+}
+
+.js {
+    list-style-image: url(./assets/img/icons8-js-16\ \(1\).png);
+    padding-bottom: 10px;
+    margin-left: 22px;
+}
+
+.html {
+    list-style-image: url(./assets/img/icons8-html-5-16.png);
+    padding-bottom: 10px;
+    margin-left: 22px;
+}
+
+.css {
+    list-style-image: url(./assets/img/icons8-css-16.png);
+    margin-left: 22px;
+    padding-bottom: 10px;
+}
+
+.git {
+    list-style-image: url(./assets/img/icons8-git-16.png);
+    margin-left: 22px;
+    padding-bottom: 10px;
+}
+
+.additional {
+    list-style-image: url(./assets/img/icons8-figma-16.png);
+    margin-left: 22px;
+}
+
+.skill-list {
+    list-style-type: square;
+    margin-left: 16px;
+}
+
+.project-list {
+    list-style-type: square;
+    margin-left: 20px;
 }
 
 /* Styles for footer*/
